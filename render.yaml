@@ -1,0 +1,35 @@
+name: telegram-file-link-bot-blueprint
+
+services:
+  - type: web
+    name: file-link-bot
+    env: python
+    branch: main
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bot.py
+    port: 8080
+    healthCheckPath: /
+    plan: free
+    autoDeploy: true
+
+    envVars:
+      - key: API_ID
+        value: "38557745"
+
+      - key: API_HASH
+        value: "095e7cb4ee689244d024db2094815845"
+
+      - key: BOT_TOKEN
+        value: "7551749323:AAFcHWb6K0llahR0qDP7xoRjGm5WlJFAzeg"
+
+      - key: MONGO_URI
+        value: "mongodb+srv://mdparvez:Parvez@129@cluster0.eebggak.mongodb.net/?appName=Cluster0"
+
+      - key: LOG_CHANNEL
+        value: "1002272193586"
+
+      - key: UPDATE_CHANNEL
+        value: "TobiTube"
+
+      - key: ADMIN_IDS
+        value: "6902088646"
