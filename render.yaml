@@ -1,5 +1,5 @@
 name:telegram-file-link-bot-blueprint
-services:-ype: web
+services:-type: web
     name: file-link-bot
     env: python
     branch: main
