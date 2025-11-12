@@ -1,4 +1,4 @@
-name: telegram-file-link-bot-blueprint
+name:telegram-file-link-bot-blueprint
 services:
   - type: web
     name: file-link-bot
@@ -6,7 +6,7 @@ services:
     branch: main
     buildCommand: pip install -r requirements.txt
     startCommand: python bot.py
-    port: 8080
+    port:8080
     healthCheckPath: /
     plan: free
     autoDeploy: true
