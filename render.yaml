@@ -1,4 +1,5 @@
 name:telegram-file-link-bot-blueprint
+
 services:
   - type: web
     name: file-link-bot
