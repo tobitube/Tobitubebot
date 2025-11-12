@@ -1,33 +1,26 @@
-name:telegram-file-link-bot-blueprint
 services:
- - type:web
-    name: file-link-bot
+  - type: web
+    name: telegram-file-link-bot
     env: python
     branch: main
     buildCommand: pip install -r requirements.txt
     startCommand: python bot.py
-    port:8080
+    port: 8080
     healthCheckPath: /
     plan: free
     autoDeploy: true
     envVars:
-      - key: API_ID
-        value: "YOUR_API_ID_HERE"
-
-      - key: API_HASH
-        value: "YOUR_API_HASH_HERE"
-
-      - key: BOT_TOKEN
-        value: "YOUR_BOT_TOKEN_HERE"
-
-      - key: MONGO_URI
-        value: "YOUR_MONGO_URI_HERE"
-
-      - key: LOG_CHANNEL
-        value: "YOUR_LOG_CHANNEL_ID"
-
-      - key: UPDATE_CHANNEL
-        value: "YOUR_UPDATE_CHANNEL_USERNAME_WITHOUT_@"
-
-      - key: ADMIN_IDS
-        value: "YOUR_ADMIN_IDS_COMMA_SEPARATED"
+​key: API_ID
+value: "38557745"
+​key: API_HASH
+value: "095e7cb4ee689244d024db2094815845"
+​key: BOT_TOKEN
+value: "7551749323:AAFchWb6K0llahR0qDP7xoRjGm5w1JFAzeg"
+​key: MONGO_URI
+value: "mongodb+srv://mdparvez:Parvez@129@cluster0.eebggak.mongodb.net/?appName=mongosh+4.2.0"
+​key: LOG_CHANNEL
+value: "1002272193586"
+​key: UPDATE_CHANNEL
+value: "TobiTube"
+​key: ADMIN_IDS
+value: "6902088646"
