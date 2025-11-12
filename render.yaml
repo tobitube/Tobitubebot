@@ -11,16 +11,16 @@ services:
     autoDeploy: true
     envVars:
       - key: API_ID
-        value: 38557745
+        value: "38557745"
       - key: API_HASH
-        value: 095e7cb4ee689244d024db2094815845
+        value: "095e7cb4ee689244d024db2094815845"
       - key: BOT_TOKEN
-        value: 7551749323:AAFcHWb6K0llahR0qDP7xoRjGm5WlJFAzeg
+        value: "7551749323:AArchMb6k01lahR0qDP7xoRjGm5WlJFAzeg"
       - key: MONGO_URI
-        value: mongodb+srv://mdparvez:Parvez@129@cluster0.eebggak.mongodb.net/?appName=Cluster0
+        value: "mongodb+srv://mdparvez:Parvez@129@cluster0.eebggak.mongodb.net/?appName=http://www.baidu.com/content.php?id=1&lang=2&link=false"
       - key: LOG_CHANNEL
-        value: 1002272193586
+        value: "1002272193586"
       - key: UPDATE_CHANNEL
-        value: TobiTube
+        value: "Tobifube"
       - key: ADMIN_IDS
-        value: 6902088646
+        value: "6902088646"
