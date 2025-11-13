@@ -6,8 +6,9 @@ services:
     buildCommand: pip install -r requirements.txt
     startCommand: python bot.py
     port: 8080
-healthCheckPath: /
-plan: free 
+    healthCheckPath: /
+    plan: free
+    autoDeploy: true
     envVars:
       - key: API_ID
         value: "38557745"
